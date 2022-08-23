@@ -1,12 +1,12 @@
 import React from 'react'
-import Header from '../components/Header';
+// import Header from '../components/Header'
 
 function AboutScreen() {
   return (
     <div>
-      <Header />
-      <p>This webpag contains countries and there names there currencies,captals,flags and there languages </p>
     
+    <p>This app is about countries, their regions, currencies, common and 
+    official name, their flags, country code, and capital cities.</p>
     </div>
   )
 }
