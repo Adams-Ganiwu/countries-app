@@ -2,7 +2,7 @@ import { BrowserRouter,Route,Routes } from "react-router-dom";
 import HomeScreen from "./screens/HomeScreen";
 import ContactScreen from "./screens/ContactScreen";
 import AboutScreen from "./screens/AboutScreen";
-import ProductScreen from "./screens/ProductScreen";
+import DetailScreen from "./screens/DetailScreen";
 import Header from "./Components/Header";
 function App(){
    return (
@@ -13,7 +13,7 @@ function App(){
        <Route path="/"element={<HomeScreen/>}/>
        <Route path="/contact"element={<ContactScreen/>}/>
        <Route path="/about"element={<AboutScreen/>}/>
-       <Route path="/Product"element={<ProductScreen/>}/>
+       <Route path="/detail"element={<DetailScreen/>}/>
        
     </Routes>
     </div>
@@ -21,4 +21,4 @@ function App(){
     
    );
 }
-export default App;
+export default App;` q1`
